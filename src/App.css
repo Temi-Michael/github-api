@@ -1,38 +1,67 @@
+/* GENERAL STYLES */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  border: 3px solid black;
+}
+
+/* APP.JS */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: block; */
   align-items: center;
+  background-color: linear-gradient(to right, rgb(18, 18, 18), rgb(92, 92, 92));
+}
+
+/* NAV.JS */
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navBarCover {
+  justify-content: space-around;
+  background-color: #343434;
+  padding: 10px;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 100px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navItem {
+  text-decoration: none;
+  justify-content: center;
+  color: antiquewhite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBarCover {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+/* FOOTER.JS */
+
+.footer {
+  background-color: #343434;
+  text-align: center;
+  color: antiquewhite;
+  padding: 10px;
+}
+
+.footerbody {
+  align-items: center;
 }
